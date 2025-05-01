@@ -14,7 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.pdmtaller2.a00027222_diegoalvarenga.data.Restaurant
-import com.pdmtaller2.a00027222_diegoalvarenga.ui.screens.home.RestaurantCard
+import com.pdmtaller2.a00027222_diegoalvarenga.ui.components.RestaurantCard
 import kotlinx.coroutines.launch
 import androidx.compose.ui.Alignment
 import androidx.compose.foundation.lazy.rememberLazyListState
@@ -46,7 +46,6 @@ fun CategoryRow(
             }
         }
 
-        // Flecha izquierda
         if (listState.firstVisibleItemIndex > 0) {
             IconButton(
                 onClick = {
@@ -71,7 +70,6 @@ fun CategoryRow(
             }
         }
 
-        // Flecha derecha
         val showRightArrow = remember {
             derivedStateOf {
                 val visibleItems = listState.layoutInfo.visibleItemsInfo

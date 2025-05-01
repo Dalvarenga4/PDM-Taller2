@@ -11,7 +11,7 @@ import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import com.pdmtaller2.a00027222_diegoalvarenga.data.DummyData
-import com.pdmtaller2.a00027222_diegoalvarenga.ui.screens.home.RestaurantCard
+import com.pdmtaller2.a00027222_diegoalvarenga.ui.components.RestaurantCard
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
